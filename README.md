@@ -1,1 +1,13 @@
-# Assignment-3-Starter
+# Assignment-Starter-Javascript
+
+## Setup
+
+```bash
+bun install
+```
+
+## Run Tests
+
+```bash
+bun vitest
+```
