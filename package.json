@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "vitest",
+    "test:ui": "vitest --ui",
     "testp1": "npx vitest run -t 'Problem 1'",
     "testp2": "npx vitest run -t 'Problem 2'",
     "testp3": "npx vitest run -t 'Problem 3'",
@@ -17,6 +18,9 @@
   "dependencies": {
     "tsd": "^0.29.0",
     "typescript": "^5.2.2",
-    "vitest": "^0.34.4"
+    "vitest": "^2.0.5"
+  },
+  "devDependencies": {
+    "@vitest/ui": "^2.0.5"
   }
 }
