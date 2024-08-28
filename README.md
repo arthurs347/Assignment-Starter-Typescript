@@ -1,4 +1,4 @@
-# Assignment-Starter-Javascript
+# Assignment-Starter-TypeScript
 
 ## Setup
 
@@ -12,3 +12,5 @@ bun install
 bun vitest
 bun test:ui
 ```
+
+[Assignment Spec](https://education.codifyberkeley.org/docs/Assignments/typescript)
